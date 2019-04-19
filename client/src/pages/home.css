@@ -1,0 +1,120 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: #DEDBD2;
+  margin: 5px;
+}
+
+span {
+  font-family: 'Fira Sans';
+}
+
+#welcome {
+  font-family: 'Cormorant Garamond';
+  font-size: 39px;
+  margin-left: 0;
+  margin-top: 12px; 
+  background-color: whitesmoke;
+  border-bottom: 3px solid #606054;
+  border-top: 3px solid #606054;
+}
+
+.ant-layout {
+  background-color: #DEDBD2;
+  font-family: 'Cormorant Garamond';
+  color: #606054;
+  font-size: 100%;
+}
+
+#footer {
+  text-align: center;
+  background: rgba(76, 175, 80, 0.0)
+}
+
+/* .ant-layout-content {
+  align-self: center;
+} */
+
+.ant-layout-sider-children {
+  background-color: #606054;
+}
+
+.ant-layout-sider-trigger {
+  color: #DEDBD2;
+  background-color: #a9535f;
+}
+
+.App.container {
+  background-color: #DEDBD2;
+  padding-left: 0%;
+  margin-left: 0%;
+  max-width: 1100px;
+}
+
+.ant-layout-sider-zero-width-trigger, .ant-layout-sider-zero-width-trigger-left, .ant-layout-sider-zero-width-trigger:hover {
+  background-color: #606054;
+}
+
+#menu {
+  font-family: 'Fira Sans';
+  font-size: 25px;
+  color: #606054;
+}
+
+body {
+  background-color: #DEDBD2 !important;
+}
+
+#photocontainer {
+  padding-top: 24px;
+}
+
+p {
+  font-family: 'Cormorant Garamond', cursive;
+  color: #606054;
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-left: 11%;
+}
+
+#content {
+  margin-top: 25px;
+  text-align: center;
+  border: solid 1px #DEDBD2;
+  border-radius: 7px;
+  min-height: 200px !important;
+  font-family: 'Fira Sans';
+}
+
+#background {
+  background-image: url("../components/flowerbordersquare.png");
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 895px) {
+
+  #background {
+    background-attachment: fixed;
+  }
+
+  #footer {
+    color: black;
+  }
+
+  #content {
+    border-style: round;
+    margin-top: 75px;
+  }
+
+  #welcome {
+    background-color: whitesmoke;
+    border-bottom: 3px solid #606054; 
+    font-size: 35px;
+    margin-top: 0px;
+  }
+
+  .ant-layout-footer {
+    font-size: 65%;
+    padding: 20px;
+  }
+}

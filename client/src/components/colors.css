@@ -1,0 +1,43 @@
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#header {
+    font-family: 'Cormorant Garamond';
+    font-size: 25px;
+    color: #606054;
+}
+
+#colorsContent {
+    border: solid 2px #606054;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Fira Sans';
+    background-color: #A9535F;
+    padding: 5%; 
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .colorsmallscreen {
+        margin-bottom: 24px; 
+    }
+}
+
+@media(max-width: 768px){
+    .top {
+        margin-bottom: 24px; 
+    }
+}
+
+/* @media(max-width: 1024px){
+    .colorsmallscreen {
+        margin-bottom: 24px; 
+    }
+} */

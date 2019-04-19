@@ -1,0 +1,31 @@
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#cutsContent {
+    border: solid 2px #606054;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+#header {
+    font-family: 'Cormorant Garamond';
+    font-size: 25px;
+    color: #606054;
+}
+
+h4 {
+    font-family: 'Fira Sans';
+    background-color: #A9535F;
+    padding: 5%; 
+    margin: 0;
+}
+
+@media(max-width: 768px){
+    .cutsmallscreen {
+        margin-bottom: 24px; 
+    }
+}

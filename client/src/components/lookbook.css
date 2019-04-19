@@ -1,0 +1,30 @@
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#lookContent {
+    border: solid 2px #606054;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+#header {
+    font-family: 'Cormorant Garamond';
+    font-size: 25px;
+    color: #606054;
+}
+
+@media (min-width: 768px) {
+    .top {
+        margin-bottom: 24px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .smallscreen {
+        margin-bottom: 24px; 
+    }
+}
